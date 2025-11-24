@@ -1,5 +1,4 @@
 #include <iostream> 
-
 using namespace std; 
 
 string checkEvenOdd(int num) { 
@@ -14,3 +13,4 @@ int main() {
     cout << checkEvenOdd(number) << endl; 
     return 0; 
 } 
+

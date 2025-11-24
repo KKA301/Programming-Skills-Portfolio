@@ -1,31 +1,15 @@
 #include <iostream> 
-
 using namespace std; 
 
-  
-
 int main() { 
-
     string answer; 
-
     cout << "What is the capital of France? "; 
+    cin >> answer; 
 
-    cin >> answer;  // simple input (stops at space) 
-
-  
-
-    if(answer == "Paris") { 
-
+    if(answer == "Paris") { //doesnt work with lower P
         cout << "Correct!"; 
-
     } else { 
-
-        cout << "Wrong!"; 
-
+      cout << "Wrong!"; 
     } 
-
-  
-
     return 0; 
-
 } 

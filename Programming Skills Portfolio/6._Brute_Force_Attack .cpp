@@ -17,6 +17,7 @@ int main() {
             cout << "incorrect password  " << tries << " attempts remaining.\n"; 
         } 
     } 
-    cout << "you had been blocked for too many incorrect tries"; 
+    cout << "you had been blocked for too many incorrect tries"; //blocks the user
     return 0; 
 } 
+
